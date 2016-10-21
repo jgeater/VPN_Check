@@ -20,7 +20,6 @@ In an SCCM task sequence just run the command VPN-Check.exe in a "run command li
 The task sequence will see and exit code of 0 if the VPN is not connected and continue
 The task sequence will see and exit code of 160 if VPN is connected and exit unless you have the "continue on error" option checked.
 
-source code availible upon request 
 
 Basic Design: 
 this uses NetworkInterface.NetworkInterfaceType Property described below
